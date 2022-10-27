@@ -37,8 +37,7 @@ class DoublyLinkedList:
         current_node = self.head
         
         # Track both previous and next node
-        prev_node = None
-        next_node = None
+        prev_node = None        
 
         while current_node is not None and current_node.data != data:
             prev_node = current_node
