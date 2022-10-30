@@ -1,6 +1,3 @@
-from multiprocessing.dummy import Array
-
-
 array = [10,3,7,4]
 
 # Indexing start with 0
